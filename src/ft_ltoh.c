@@ -6,15 +6,16 @@
 /*   By: resonnet <renald.sonnet@learner.42.tech>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/07 21:46:47 by resonnet          #+#    #+#             */
-/*   Updated: 2026/11/07 22:42:19 by resonnet         ###   ########.fr       */
+/*   Updated: 2026/11/08 10:42:56 by resonnet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <limits.h>
 #include <printf.h>
+#include <stdio.h>
 #include <stdlib.h>
 
-int	get_byte_size(unsigned long value)
+static int	get_byte_size(unsigned long value)
 {
 	int	res;
 

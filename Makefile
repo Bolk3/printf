@@ -1,57 +1,60 @@
-NAME=		libftprintf.a
-LFTNAME=	libft.a
-TEST=		libftprintf.test
+NAME        = libftprintf.a
+LFTNAME     = libft.a
+TEST        = libftprintf.test
 
-CXX=		g++
-CXXFLAGS=	-std=c++17 -Wall -Wextra -Werror -I ./include/
-CC=			cc
-CFLAGS=		-Wall -Wextra -Werror -I ./include/
+CXX         = g++
+CXXFLAGS    = -std=c++17 -Wall -Wextra -Werror -I ./include/
+CC          = cc
+CFLAGS      = -Wall -Wextra -Werror -I ./include/
 
-ifneq ($(wildcard $(HOME)/googletest),)
-	GTEST_LIBS=	$(HOME)/googletest/googletest
-	CXXFLAGS+=	-isystem $(GTEST_DIR)/include
-	GTEST_LIBS=	$(GTEST_DIR)/libgtest/.a $(GTEST_DIR)/libgtest_main.a -lpthread
+GTEST_DIR ?= $(HOME)/googletest
+
+ifneq ($(wildcard $(GTEST_DIR)),)
+    CXXFLAGS    += -isystem $(GTEST_DIR)/include
+    GTEST_LIBS  = -L$(GTEST_DIR)/build/lib -lgtest -lgtest_main -lpthread
 else
-	GTEST_LIBS=	-lgtest -lgtest_main -lpthread
+    GTEST_LIBS  = -lgtest -lgtest_main -lpthread
 endif
 
-LFTFILES=	./src/libft/*.c
+LFTFILES    = $(wildcard ./src/libft/*.c)
+LFTOBJ      = $(LFTFILES:.c=.o)
 
-FILES=		
+FILES       = ./src/ft_ltoh.c
+OBJ         = $(FILES:.c=.o)
 
-TFILES=		$(FILES:./src/%.c=./test/%.cpp)
+TFILES      = $(FILES:./src/%.c=./test/%.cpp)
+TOBJS       = $(TFILES:.cpp=.o)
 
-LFTOBJ=		$(LFTFILES:.c=.o)
-OBJ=		$(FILES:.c=.o)
-TOBJS=		$(TFILES:.cpp=.o)
+WRAPS       = -Wl,--wrap=malloc -Wl,--wrap=free
+WRAPS_FILES = ./test/wraps/free.cpp ./test/wraps/malloc.cpp
 
-all:		$(NAME)
+all: $(NAME)
 
-%.o:		%.c
-			$(CC) $(CFLAGS) -c $^ -o $@
+%.o: %.c
+	$(CC) $(CFLAGS) -c $< -o $@
 
-%.o:		%.cpp
-			$(CXX) $(CXXFLAGS) -c $^ -o $@
+%.o: %.cpp
+	$(CXX) $(CXXFLAGS) -c $< -o $@
 
-$(LFTNAME):	$(LFTOBJ)
-			$(CC) $(CFLAGS) -o $(LFTNAME) $(LFTOBJ)
+$(LFTNAME): $(LFTOBJ)
+	ar rcs $(LFTNAME) $(LFTOBJ)
 
-$(NAME):	$(LFTNAME) $(OBJ)
-			$(CC) $(CFLAGS) $(OBJ) $(LFTNAME) -o $(NAME)
+$(NAME): $(LFTNAME) $(OBJ)
+	ar rcs $(NAME) $(LFTOBJ) $(OBJ)
 
-$(TEST):	$(OBJ) $(LFTOBJ) $(TOBJS)
-			$(CXX) $(CXXFLAGS) $(GTEST_LIBS) $^ -o $(TEST) 
+$(TEST): $(NAME) $(TOBJS) $(WRAPS_FILES)
+	$(CXX) $(CXXFLAGS) $(WRAPS) $(TOBJS) $(WRAPS_FILES) $(NAME) $(GTEST_LIBS) -o $(TEST)
 
 clean:
-			rm -rf $(OBJ)
-			rm -rf $(LFTOBJ)
-			rm -rf $(TOBJS)
+	rm -rf $(OBJ)
+	rm -rf $(LFTOBJ)
+	rm -rf $(TOBJS)
 
-fclean:		clean
-			rm -rf $(NAME)
-			rm -rf $(LFTNAME)
-			rm -rf $(TEST)
+fclean: clean
+	rm -rf $(NAME)
+	rm -rf $(LFTNAME)
+	rm -rf $(TEST)
 
-re:			fclean all
+re: fclean all
 
-.PHONY:		all clean fclean re
+.PHONY: all clean fclean re test
