@@ -19,7 +19,10 @@ endif
 LFTFILES    = $(wildcard ./src/libft/*.c)
 LFTOBJ      = $(LFTFILES:.c=.o)
 
-FILES       = ./src/ft_ltoh.c
+FILES       = ./src/writers/ft_ltoh.c\
+			  ./src/writers/ft_ultoa.c\
+			  ./src/parcer/newzone.c\
+
 OBJ         = $(FILES:.c=.o)
 
 TFILES      = $(FILES:./src/%.c=./test/%.cpp)

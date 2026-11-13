@@ -1,0 +1,3124 @@
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_atoi.c -o src/libft/ft_atoi.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_bzero.c -o src/libft/ft_bzero.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_calloc.c -o src/libft/ft_calloc.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_isalnum.c -o src/libft/ft_isalnum.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_isalpha.c -o src/libft/ft_isalpha.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_isascii.c -o src/libft/ft_isascii.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_isdigit.c -o src/libft/ft_isdigit.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_isprint.c -o src/libft/ft_isprint.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_itoa.c -o src/libft/ft_itoa.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_lstadd_back.c -o src/libft/ft_lstadd_back.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_lstadd_front.c -o src/libft/ft_lstadd_front.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_lstclear.c -o src/libft/ft_lstclear.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_lstdelone.c -o src/libft/ft_lstdelone.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_lstiter.c -o src/libft/ft_lstiter.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_lstlast.c -o src/libft/ft_lstlast.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_lstmap.c -o src/libft/ft_lstmap.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_lstnew.c -o src/libft/ft_lstnew.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_lstsize.c -o src/libft/ft_lstsize.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_memchr.c -o src/libft/ft_memchr.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_memcmp.c -o src/libft/ft_memcmp.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_memcpy.c -o src/libft/ft_memcpy.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_memmove.c -o src/libft/ft_memmove.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_memset.c -o src/libft/ft_memset.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_putchar_fd.c -o src/libft/ft_putchar_fd.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_putendl_fd.c -o src/libft/ft_putendl_fd.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_putnbr_fd.c -o src/libft/ft_putnbr_fd.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_putstr_fd.c -o src/libft/ft_putstr_fd.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_split.c -o src/libft/ft_split.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_strchr.c -o src/libft/ft_strchr.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_strdup.c -o src/libft/ft_strdup.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_striteri.c -o src/libft/ft_striteri.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_strjoin.c -o src/libft/ft_strjoin.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_strlcat.c -o src/libft/ft_strlcat.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_strlcpy.c -o src/libft/ft_strlcpy.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_strlen.c -o src/libft/ft_strlen.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_strmapi.c -o src/libft/ft_strmapi.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_strncmp.c -o src/libft/ft_strncmp.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_strnstr.c -o src/libft/ft_strnstr.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_strrchr.c -o src/libft/ft_strrchr.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_strtrim.c -o src/libft/ft_strtrim.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_substr.c -o src/libft/ft_substr.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_tolower.c -o src/libft/ft_tolower.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/libft/ft_toupper.c -o src/libft/ft_toupper.o
+ar rcs libft.a ./src/libft/ft_atoi.o ./src/libft/ft_bzero.o ./src/libft/ft_calloc.o ./src/libft/ft_isalnum.o ./src/libft/ft_isalpha.o ./src/libft/ft_isascii.o ./src/libft/ft_isdigit.o ./src/libft/ft_isprint.o ./src/libft/ft_itoa.o ./src/libft/ft_lstadd_back.o ./src/libft/ft_lstadd_front.o ./src/libft/ft_lstclear.o ./src/libft/ft_lstdelone.o ./src/libft/ft_lstiter.o ./src/libft/ft_lstlast.o ./src/libft/ft_lstmap.o ./src/libft/ft_lstnew.o ./src/libft/ft_lstsize.o ./src/libft/ft_memchr.o ./src/libft/ft_memcmp.o ./src/libft/ft_memcpy.o ./src/libft/ft_memmove.o ./src/libft/ft_memset.o ./src/libft/ft_putchar_fd.o ./src/libft/ft_putendl_fd.o ./src/libft/ft_putnbr_fd.o ./src/libft/ft_putstr_fd.o ./src/libft/ft_split.o ./src/libft/ft_strchr.o ./src/libft/ft_strdup.o ./src/libft/ft_striteri.o ./src/libft/ft_strjoin.o ./src/libft/ft_strlcat.o ./src/libft/ft_strlcpy.o ./src/libft/ft_strlen.o ./src/libft/ft_strmapi.o ./src/libft/ft_strncmp.o ./src/libft/ft_strnstr.o ./src/libft/ft_strrchr.o ./src/libft/ft_strtrim.o ./src/libft/ft_substr.o ./src/libft/ft_tolower.o ./src/libft/ft_toupper.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/writers/ft_ltoh.c -o src/writers/ft_ltoh.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/writers/ft_ultoa.c -o src/writers/ft_ultoa.o
+cc -Wall -Wextra -Werror -I ./include/ -c src/parcer/newzone.c -o src/parcer/newzone.o
+ar rcs libftprintf.a ./src/libft/ft_atoi.o ./src/libft/ft_bzero.o ./src/libft/ft_calloc.o ./src/libft/ft_isalnum.o ./src/libft/ft_isalpha.o ./src/libft/ft_isascii.o ./src/libft/ft_isdigit.o ./src/libft/ft_isprint.o ./src/libft/ft_itoa.o ./src/libft/ft_lstadd_back.o ./src/libft/ft_lstadd_front.o ./src/libft/ft_lstclear.o ./src/libft/ft_lstdelone.o ./src/libft/ft_lstiter.o ./src/libft/ft_lstlast.o ./src/libft/ft_lstmap.o ./src/libft/ft_lstnew.o ./src/libft/ft_lstsize.o ./src/libft/ft_memchr.o ./src/libft/ft_memcmp.o ./src/libft/ft_memcpy.o ./src/libft/ft_memmove.o ./src/libft/ft_memset.o ./src/libft/ft_putchar_fd.o ./src/libft/ft_putendl_fd.o ./src/libft/ft_putnbr_fd.o ./src/libft/ft_putstr_fd.o ./src/libft/ft_split.o ./src/libft/ft_strchr.o ./src/libft/ft_strdup.o ./src/libft/ft_striteri.o ./src/libft/ft_strjoin.o ./src/libft/ft_strlcat.o ./src/libft/ft_strlcpy.o ./src/libft/ft_strlen.o ./src/libft/ft_strmapi.o ./src/libft/ft_strncmp.o ./src/libft/ft_strnstr.o ./src/libft/ft_strrchr.o ./src/libft/ft_strtrim.o ./src/libft/ft_substr.o ./src/libft/ft_tolower.o ./src/libft/ft_toupper.o ./src/writers/ft_ltoh.o ./src/writers/ft_ultoa.o ./src/parcer/newzone.o
+# GNU Make 4.4.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2023 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon Nov  9 11:24:04 2026
+
+# Variables
+
+# default
+PREPROCESS.S = $(CPP) $(CPPFLAGS)
+# default
+COMPILE.m = $(OBJC) $(OBJCFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+# makefile (from 'Makefile', line 26)
+OBJ = $(FILES:.c=.o)
+# environment
+MEMORY_PRESSURE_WRITE = c29tZSAyMDAwMDAgMjAwMDAwMAA=
+# default
+ARFLAGS = -rv
+# default
+AS = as
+# default
+AR = ar
+# environment
+STARSHIP_SESSION_KEY = 1856304632942189
+# default
+OBJC = cc
+# default
+LINK.S = $(CC) $(ASFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_MACH)
+# default
+LINK.s = $(CC) $(ASFLAGS) $(LDFLAGS) $(TARGET_MACH)
+# default
+MAKE_COMMAND := make
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# makefile (from 'Makefile', line 31)
+WRAPS = -Wl,--wrap=malloc -Wl,--wrap=free
+# default
+COFLAGS = 
+# default
+COMPILE.mod = $(M2C) $(M2FLAGS) $(MODFLAGS) $(TARGET_ARCH)
+# default
+.VARIABLES := 
+# environment
+PWD = /home/bolk3/Documents/printf
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from 'Makefile', line 10)
+GTEST_DIR = $(HOME)/googletest
+# environment
+MAIL = /var/spool/mail/bolk3
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share
+# default
+LINK.o = $(CC) $(LDFLAGS) $(TARGET_ARCH)
+# environment
+OLDPWD = /home/bolk3
+# default
+TEXI2DVI = texi2dvi
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session2
+# default
+LEX.l = $(LEX) $(LFLAGS) -t
+# environment
+LANG = C.UTF-8
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS := /usr/local/include /usr/include
+# environment
+MEMORY_PRESSURE_WATCH = /sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/inir.service/memory.pressure
+# default
+COMPILE.c = $(CC) $(CFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+# makefile
+MAKEFLAGS = np
+# default
+LINK.f = $(FC) $(FFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# default
+TANGLE = tangle
+# makefile
+CURDIR := /home/bolk3/Documents/printf
+# default
+PREPROCESS.F = $(FC) $(FFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -F
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -np
+# default
+COMPILE.p = $(PC) $(PFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+# default
+.SHELLFLAGS := -c
+# default
+M2C = m2c
+# makefile (from 'Makefile', line 28)
+TFILES = $(FILES:./src/%.c=./test/%.cpp)
+# default
+COMPILE.cpp = $(COMPILE.cc)
+# default
+TEX = tex
+# environment
+WAYLAND_DISPLAY = wayland-1
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = niri
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# default
+F77FLAGS = $(FFLAGS)
+# automatic
+@F = $(notdir $@)
+# environment
+OCAML_TOPLEVEL_PATH = /home/bolk3/.opam/default/lib/toplevel
+# environment
+XDG_SESSION_TYPE = wayland
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# default
+COMPILE.def = $(M2C) $(M2FLAGS) $(DEFFLAGS) $(TARGET_ARCH)
+# default
+CTANGLE = ctangle
+# automatic
+*F = $(notdir $*)
+# environment
+MANPATH = :/home/bolk3/.opam/default/man
+# environment
+ILLOGICAL_IMPULSE_VIRTUAL_ENV = /home/bolk3/.local/state/quickshell/.venv
+# environment
+QT_QPA_PLATFORMTHEME = kde
+# environment
+OPAM_LAST_ENV = /home/bolk3/.opam/.last-env/env-b98c620e7e77c0eab0e75074938294d0-0
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# makefile (from 'Makefile', line 29)
+TOBJS = $(TFILES:.cpp=.o)
+# default
+COMPILE.C = $(COMPILE.cc)
+# default
+YACC.m = $(YACC) $(YFLAGS)
+# default
+LINK.C = $(LINK.cc)
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# default
+LINK.c = $(CC) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# makefile
+SHELL = /bin/sh
+# environment
+KITTY_PUBLIC_KEY = 1:8{@PU*|909T(b@n7<2D$OfH~}e;<lstZ*WrmCqs|
+# environment
+QT_QPA_PLATFORM = wayland
+# default
+LINK.F = $(FC) $(FFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# environment
+SHLVL = 2
+# environment
+TERMINFO = /usr/lib/kitty/terminfo
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+FC = f77
+# environment
+PATH = /home/bolk3/.opam/default/bin:/home/bolk3/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+# default
+LINT = lint
+# default
+PC = pc
+# default
+MAKEFILES := 
+# makefile (from 'Makefile', line 32)
+WRAPS_FILES = ./test/wraps/free.cpp ./test/wraps/malloc.cpp
+# environment
+MOTD_SHOWN = pam
+# automatic
+^F = $(notdir $^)
+# default
+LEX.m = $(LEX) $(LFLAGS) -t
+# default
+.LIBPATTERNS = lib%.so lib%.a
+# environment
+OCAMLTOP_INCLUDE_PATH = /home/bolk3/.opam/default/lib/toplevel
+# environment
+INVOCATION_ID = 37a51a17f3d64106a8ee8e16873e0bc5
+# default
+CPP = $(CC) -E
+# environment
+ELECTRON_OZONE_PLATFORM_HINT = auto
+# default
+LINK.cc = $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# environment
+NIRI_SOCKET = /run/user/1000/niri.wayland-1.1556.sock
+# environment
+_JAVA_AWT_WM_NONREPARENTING = 1
+# default
+CHECKOUT,v = +$(if $(wildcard $@),,$(CO) $(COFLAGS) $< $@)
+# default
+COMPILE.f = $(FC) $(FFLAGS) $(TARGET_ARCH) -c
+# environment
+VSSCRIPT_PATH = /usr/lib/python3.14/site-packages/vapoursynth/libvsscript.so
+# default
+COMPILE.r = $(FC) $(FFLAGS) $(RFLAGS) $(TARGET_ARCH) -c
+# makefile (from 'Makefile', line 22)
+FILES = ./src/writers/ft_ltoh.c ./src/writers/ft_ultoa.c ./src/parcer/newzone.c 
+# makefile (from 'Makefile', line 16)
+GTEST_LIBS = -lgtest -lgtest_main -lpthread
+# default
+COMPILE.S = $(CC) $(ASFLAGS) $(CPPFLAGS) $(TARGET_MACH) -c
+# automatic
+?F = $(notdir $?)
+# default
+GET = get
+# makefile (from 'Makefile', line 1)
+NAME = libftprintf.a
+# default
+LINK.r = $(FC) $(FFLAGS) $(RFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# environment
+XDG_SEAT = seat0
+# environment
+XDG_CURRENT_DESKTOP = niri
+# automatic
++F = $(notdir $+)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+DESKTOP_SESSION = niri
+# default
+MAKEINFO = makeinfo
+# makefile (from 'Makefile', line 3)
+TEST = libftprintf.test
+# 'override' directive
+GNUMAKEFLAGS := 
+# default
+PREPROCESS.r = $(FC) $(FFLAGS) $(RFLAGS) $(TARGET_ARCH) -F
+# environment
+OPAMNOENVNOTICE = true
+# default
+LINK.m = $(OBJC) $(OBJCFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# environment
+LOGNAME = bolk3
+# default
+LINK.p = $(PC) $(PFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# default
+YACC = yacc
+# environment
+XDG_VTNR = 1
+# makefile
+.DEFAULT_GOAL := all
+# environment
+SYSTEMD_EXEC_PID = 1619
+# default
+RM = rm -f
+# environment
+KITTY_WINDOW_ID = 1
+# default
+WEAVE = weave
+# environment
+DISPLAY = :1
+# environment
+USER = bolk3
+# default
+MAKE_VERSION := 4.4.1
+# default
+F77 = $(FC)
+# environment
+MANAGERPID = 1473
+# environment
+OPAM_SWITCH_PREFIX = /home/bolk3/.opam/default
+# environment
+DEBUGINFOD_URLS = https://debuginfod.archlinux.org 
+# environment
+STARSHIP_SHELL = fish
+# environment
+KITTY_PID = 5453
+# environment
+QT_STYLE_OVERRIDE = Darkly
+# default
+CWEAVE = cweave
+# default
+YACC.y = $(YACC) $(YFLAGS)
+# default
+LINK.cpp = $(LINK.cc)
+# default
+CO = co
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 8)
+CFLAGS = -Wall -Wextra -Werror -I ./include/
+# environment
+COLORTERM = truecolor
+# default
+OUTPUT_OPTION = -o $@
+# default
+COMPILE.s = $(AS) $(ASFLAGS) $(TARGET_MACH)
+# environment
+JOURNAL_STREAM = 10:10131
+# default
+MAKE_TERMERR := /dev/pts/0
+# environment
+XDG_SESSION_CLASS = user
+# environment
+HOME = /home/bolk3
+# makefile (from 'Makefile', line 20)
+LFTOBJ = $(LFTFILES:.c=.o)
+# default
+LEX = lex
+# environment
+TERM = xterm-kitty
+# environment
+XDG_SESSION_ID = 2
+# makefile (from 'Makefile', line 2)
+LFTNAME = libft.a
+# default
+LINT.c = $(LINT) $(LINTFLAGS) $(CPPFLAGS) $(TARGET_ARCH)
+# default
+COMPILE.F = $(FC) $(FFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := .out .a .ln .o .c .cc .C .cpp .p .f .F .m .r .y .l .ym .yl .s .S .mod .sym .def .h .info .dvi .tex .texinfo .texi .txinfo .w .ch .web .sh .elc .el
+# default
+LD = ld
+# makefile (from 'Makefile', line 6)
+CXXFLAGS = -std=c++17 -Wall -Wextra -Werror -I ./include/
+# environment
+MANAGERPIDFDID = 4285
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs notintermediate shell-export archives jobserver jobserver-fifo output-sync check-symlink guile load
+# makefile (from 'Makefile', line 5)
+CXX = g++
+# makefile (from 'Makefile', line 7)
+CC = cc
+# environment
+KITTY_INSTALLATION_DIR = /usr/lib/kitty
+# environment
+XDG_MENU_PREFIX = plasma-
+# environment
+INIR_VENV = /home/bolk3/.local/state/quickshell/.venv
+# makefile (from 'Makefile', line 19)
+LFTFILES = $(wildcard ./src/libft/*.c)
+# default
+COMPILE.cc = $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+# variable set hash-table stats:
+# Load=171/1024=17%, Rehash=0, Collisions=22/464=5%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# src/libft/RCS: could not be stat'd.
+# src/libft (device 66307, inode 3677619): 45 files, 129 impossibilities.
+# RCS: could not be stat'd.
+# src/writers/SCCS: could not be stat'd.
+# SCCS: could not be stat'd.
+# src/parcer/RCS: could not be stat'd.
+# . (device 66307, inode 3676943): 9 files, 19 impossibilities.
+# src/writers/RCS: could not be stat'd.
+# ./src/libft (device 66307, inode 3677619): 45 files, 129 impossibilities.
+# src/parcer/SCCS: could not be stat'd.
+# src/parcer (device 66307, inode 3678120): 3 files, 3 impossibilities.
+# src/writers (device 66307, inode 3678122): 7 files, 6 impossibilities.
+# src/libft/SCCS: could not be stat'd.
+
+# 109 files, 286 impossibilities in 13 directories.
+
+# Implicit Rules
+
+%.o: %.c
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+%.o: %.cpp
+#  recipe to execute (from 'Makefile', line 40):
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+%.out:
+
+%.a:
+
+%.ln:
+
+%.o:
+
+%: %.o
+#  recipe to execute (built-in):
+	$(LINK.o) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.c:
+
+%: %.c
+#  recipe to execute (built-in):
+	$(LINK.c) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.ln: %.c
+#  recipe to execute (built-in):
+	$(LINT.c) -C$* $<
+
+%.cc:
+
+%: %.cc
+#  recipe to execute (built-in):
+	$(LINK.cc) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.cc
+#  recipe to execute (built-in):
+	$(COMPILE.cc) $(OUTPUT_OPTION) $<
+
+%.C:
+
+%: %.C
+#  recipe to execute (built-in):
+	$(LINK.C) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.C
+#  recipe to execute (built-in):
+	$(COMPILE.C) $(OUTPUT_OPTION) $<
+
+%.cpp:
+
+%: %.cpp
+#  recipe to execute (built-in):
+	$(LINK.cpp) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.p:
+
+%: %.p
+#  recipe to execute (built-in):
+	$(LINK.p) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.p
+#  recipe to execute (built-in):
+	$(COMPILE.p) $(OUTPUT_OPTION) $<
+
+%.f:
+
+%: %.f
+#  recipe to execute (built-in):
+	$(LINK.f) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.f
+#  recipe to execute (built-in):
+	$(COMPILE.f) $(OUTPUT_OPTION) $<
+
+%.F:
+
+%: %.F
+#  recipe to execute (built-in):
+	$(LINK.F) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.F
+#  recipe to execute (built-in):
+	$(COMPILE.F) $(OUTPUT_OPTION) $<
+
+%.f: %.F
+#  recipe to execute (built-in):
+	$(PREPROCESS.F) $(OUTPUT_OPTION) $<
+
+%.m:
+
+%: %.m
+#  recipe to execute (built-in):
+	$(LINK.m) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.m
+#  recipe to execute (built-in):
+	$(COMPILE.m) $(OUTPUT_OPTION) $<
+
+%.r:
+
+%: %.r
+#  recipe to execute (built-in):
+	$(LINK.r) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.r
+#  recipe to execute (built-in):
+	$(COMPILE.r) $(OUTPUT_OPTION) $<
+
+%.f: %.r
+#  recipe to execute (built-in):
+	$(PREPROCESS.r) $(OUTPUT_OPTION) $<
+
+%.y:
+
+%.ln: %.y
+#  recipe to execute (built-in):
+	$(YACC.y) $< 
+	 $(LINT.c) -C$* y.tab.c 
+	 $(RM) y.tab.c
+
+%.c: %.y
+#  recipe to execute (built-in):
+	$(YACC.y) $< 
+	 mv -f y.tab.c $@
+
+%.l:
+
+%.ln: %.l
+#  recipe to execute (built-in):
+	@$(RM) $*.c
+	 $(LEX.l) $< > $*.c
+	$(LINT.c) -i $*.c -o $@
+	 $(RM) $*.c
+
+%.c: %.l
+#  recipe to execute (built-in):
+	@$(RM) $@ 
+	 $(LEX.l) $< > $@
+
+%.r: %.l
+#  recipe to execute (built-in):
+	$(LEX.l) $< > $@ 
+	 mv -f lex.yy.r $@
+
+%.ym:
+
+%.m: %.ym
+#  recipe to execute (built-in):
+	$(YACC.m) $< 
+	 mv -f y.tab.c $@
+
+%.yl:
+
+%.s:
+
+%: %.s
+#  recipe to execute (built-in):
+	$(LINK.s) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.s
+#  recipe to execute (built-in):
+	$(COMPILE.s) -o $@ $<
+
+%.S:
+
+%: %.S
+#  recipe to execute (built-in):
+	$(LINK.S) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.S
+#  recipe to execute (built-in):
+	$(COMPILE.S) -o $@ $<
+
+%.s: %.S
+#  recipe to execute (built-in):
+	$(PREPROCESS.S) $< > $@
+
+%.mod:
+
+%: %.mod
+#  recipe to execute (built-in):
+	$(COMPILE.mod) -o $@ -e $@ $^
+
+%.o: %.mod
+#  recipe to execute (built-in):
+	$(COMPILE.mod) -o $@ $<
+
+%.sym:
+
+%.def:
+
+%.sym: %.def
+#  recipe to execute (built-in):
+	$(COMPILE.def) -o $@ $<
+
+%.h:
+
+%.info:
+
+%.dvi:
+
+%.tex:
+
+%.dvi: %.tex
+#  recipe to execute (built-in):
+	$(TEX) $<
+
+%.texinfo:
+
+%.info: %.texinfo
+#  recipe to execute (built-in):
+	$(MAKEINFO) $(MAKEINFO_FLAGS) $< -o $@
+
+%.dvi: %.texinfo
+#  recipe to execute (built-in):
+	$(TEXI2DVI) $(TEXI2DVI_FLAGS) $<
+
+%.texi:
+
+%.info: %.texi
+#  recipe to execute (built-in):
+	$(MAKEINFO) $(MAKEINFO_FLAGS) $< -o $@
+
+%.dvi: %.texi
+#  recipe to execute (built-in):
+	$(TEXI2DVI) $(TEXI2DVI_FLAGS) $<
+
+%.txinfo:
+
+%.info: %.txinfo
+#  recipe to execute (built-in):
+	$(MAKEINFO) $(MAKEINFO_FLAGS) $< -o $@
+
+%.dvi: %.txinfo
+#  recipe to execute (built-in):
+	$(TEXI2DVI) $(TEXI2DVI_FLAGS) $<
+
+%.w:
+
+%.c: %.w
+#  recipe to execute (built-in):
+	$(CTANGLE) $< - $@
+
+%.tex: %.w
+#  recipe to execute (built-in):
+	$(CWEAVE) $< - $@
+
+%.ch:
+
+%.web:
+
+%.p: %.web
+#  recipe to execute (built-in):
+	$(TANGLE) $<
+
+%.tex: %.web
+#  recipe to execute (built-in):
+	$(WEAVE) $<
+
+%.sh:
+
+%: %.sh
+#  recipe to execute (built-in):
+	cat $< >$@ 
+	 chmod a+x $@
+
+%.elc:
+
+%.el:
+
+(%): %
+#  recipe to execute (built-in):
+	$(AR) $(ARFLAGS) $@ $<
+
+%.out: %
+#  recipe to execute (built-in):
+	@rm -f $@ 
+	 cp $< $@
+
+%.c: %.w %.ch
+#  recipe to execute (built-in):
+	$(CTANGLE) $^ $@
+
+%.tex: %.w %.ch
+#  recipe to execute (built-in):
+	$(CWEAVE) $^ $@
+
+%:: %,v
+#  recipe to execute (built-in):
+	$(CHECKOUT,v)
+
+%:: RCS/%,v
+#  recipe to execute (built-in):
+	$(CHECKOUT,v)
+
+%:: RCS/%
+#  recipe to execute (built-in):
+	$(CHECKOUT,v)
+
+%:: s.%
+#  recipe to execute (built-in):
+	$(GET) $(GFLAGS) $(SCCS_OUTPUT_OPTION) $<
+
+%:: SCCS/s.%
+#  recipe to execute (built-in):
+	$(GET) $(GFLAGS) $(SCCS_OUTPUT_OPTION) $<
+
+# 92 implicit rules, 5 (5.4%) terminal.
+# Files
+
+# Not a target:
+.cpp:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(LINK.cpp) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+src/libft/ft_putnbr_fd.o: src/libft/ft_putnbr_fd.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_putnbr_fd'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_putnbr_fd.o
+# automatic
+# * := src/libft/ft_putnbr_fd
+# automatic
+# < := src/libft/ft_putnbr_fd.c
+# automatic
+# + := src/libft/ft_putnbr_fd.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_putnbr_fd.c
+# automatic
+# ? := src/libft/ft_putnbr_fd.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+src/libft/ft_striteri.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294726544
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/libft/ft_strlen.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294726544
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.c.o:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(COMPILE.c) $(OUTPUT_OPTION) $<
+
+# Not a target:
+src/libft/ft_putstr_fd.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294726544
+#  File has been updated.
+#  Successfully updated.
+
+src/libft/ft_lstmap.o: src/libft/ft_lstmap.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_lstmap'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_lstmap.o
+# automatic
+# * := src/libft/ft_lstmap
+# automatic
+# < := src/libft/ft_lstmap.c
+# automatic
+# + := src/libft/ft_lstmap.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_lstmap.c
+# automatic
+# ? := src/libft/ft_lstmap.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+test/wraps/free.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.h:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/libft/ft_lstadd_back.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294522175
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/libft/ft_strrchr.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.295726609
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.sh:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	cat $< >$@ 
+	 chmod a+x $@
+
+src/libft/ft_tolower.o: src/libft/ft_tolower.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_tolower'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_tolower.o
+# automatic
+# * := src/libft/ft_tolower
+# automatic
+# < := src/libft/ft_tolower.c
+# automatic
+# + := src/libft/ft_tolower.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_tolower.c
+# automatic
+# ? := src/libft/ft_tolower.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+libft.a: src/libft/ft_atoi.o src/libft/ft_bzero.o src/libft/ft_calloc.o src/libft/ft_isalnum.o src/libft/ft_isalpha.o src/libft/ft_isascii.o src/libft/ft_isdigit.o src/libft/ft_isprint.o src/libft/ft_itoa.o src/libft/ft_lstadd_back.o src/libft/ft_lstadd_front.o src/libft/ft_lstclear.o src/libft/ft_lstdelone.o src/libft/ft_lstiter.o src/libft/ft_lstlast.o src/libft/ft_lstmap.o src/libft/ft_lstnew.o src/libft/ft_lstsize.o src/libft/ft_memchr.o src/libft/ft_memcmp.o src/libft/ft_memcpy.o src/libft/ft_memmove.o src/libft/ft_memset.o src/libft/ft_putchar_fd.o src/libft/ft_putendl_fd.o src/libft/ft_putnbr_fd.o src/libft/ft_putstr_fd.o src/libft/ft_split.o src/libft/ft_strchr.o src/libft/ft_strdup.o src/libft/ft_striteri.o src/libft/ft_strjoin.o src/libft/ft_strlcat.o src/libft/ft_strlcpy.o src/libft/ft_strlen.o src/libft/ft_strmapi.o src/libft/ft_strncmp.o src/libft/ft_strnstr.o src/libft/ft_strrchr.o src/libft/ft_strtrim.o src/libft/ft_substr.o src/libft/ft_tolower.o src/libft/ft_toupper.o
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'libft'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := libft.a
+# automatic
+# * := libft
+# automatic
+# < := src/libft/ft_atoi.o
+# automatic
+# + := src/libft/ft_atoi.o src/libft/ft_bzero.o src/libft/ft_calloc.o src/libft/ft_isalnum.o src/libft/ft_isalpha.o src/libft/ft_isascii.o src/libft/ft_isdigit.o src/libft/ft_isprint.o src/libft/ft_itoa.o src/libft/ft_lstadd_back.o src/libft/ft_lstadd_front.o src/libft/ft_lstclear.o src/libft/ft_lstdelone.o src/libft/ft_lstiter.o src/libft/ft_lstlast.o src/libft/ft_lstmap.o src/libft/ft_lstnew.o src/libft/ft_lstsize.o src/libft/ft_memchr.o src/libft/ft_memcmp.o src/libft/ft_memcpy.o src/libft/ft_memmove.o src/libft/ft_memset.o src/libft/ft_putchar_fd.o src/libft/ft_putendl_fd.o src/libft/ft_putnbr_fd.o src/libft/ft_putstr_fd.o src/libft/ft_split.o src/libft/ft_strchr.o src/libft/ft_strdup.o src/libft/ft_striteri.o src/libft/ft_strjoin.o src/libft/ft_strlcat.o src/libft/ft_strlcpy.o src/libft/ft_strlen.o src/libft/ft_strmapi.o src/libft/ft_strncmp.o src/libft/ft_strnstr.o src/libft/ft_strrchr.o src/libft/ft_strtrim.o src/libft/ft_substr.o src/libft/ft_tolower.o src/libft/ft_toupper.o
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_atoi.o src/libft/ft_bzero.o src/libft/ft_calloc.o src/libft/ft_isalnum.o src/libft/ft_isalpha.o src/libft/ft_isascii.o src/libft/ft_isdigit.o src/libft/ft_isprint.o src/libft/ft_itoa.o src/libft/ft_lstadd_back.o src/libft/ft_lstadd_front.o src/libft/ft_lstclear.o src/libft/ft_lstdelone.o src/libft/ft_lstiter.o src/libft/ft_lstlast.o src/libft/ft_lstmap.o src/libft/ft_lstnew.o src/libft/ft_lstsize.o src/libft/ft_memchr.o src/libft/ft_memcmp.o src/libft/ft_memcpy.o src/libft/ft_memmove.o src/libft/ft_memset.o src/libft/ft_putchar_fd.o src/libft/ft_putendl_fd.o src/libft/ft_putnbr_fd.o src/libft/ft_putstr_fd.o src/libft/ft_split.o src/libft/ft_strchr.o src/libft/ft_strdup.o src/libft/ft_striteri.o src/libft/ft_strjoin.o src/libft/ft_strlcat.o src/libft/ft_strlcpy.o src/libft/ft_strlen.o src/libft/ft_strmapi.o src/libft/ft_strncmp.o src/libft/ft_strnstr.o src/libft/ft_strrchr.o src/libft/ft_strtrim.o src/libft/ft_substr.o src/libft/ft_tolower.o src/libft/ft_toupper.o
+# automatic
+# ? := src/libft/ft_atoi.o src/libft/ft_bzero.o src/libft/ft_calloc.o src/libft/ft_isalnum.o src/libft/ft_isalpha.o src/libft/ft_isascii.o src/libft/ft_isdigit.o src/libft/ft_isprint.o src/libft/ft_itoa.o src/libft/ft_lstadd_back.o src/libft/ft_lstadd_front.o src/libft/ft_lstclear.o src/libft/ft_lstdelone.o src/libft/ft_lstiter.o src/libft/ft_lstlast.o src/libft/ft_lstmap.o src/libft/ft_lstnew.o src/libft/ft_lstsize.o src/libft/ft_memchr.o src/libft/ft_memcmp.o src/libft/ft_memcpy.o src/libft/ft_memmove.o src/libft/ft_memset.o src/libft/ft_putchar_fd.o src/libft/ft_putendl_fd.o src/libft/ft_putnbr_fd.o src/libft/ft_putstr_fd.o src/libft/ft_split.o src/libft/ft_strchr.o src/libft/ft_strdup.o src/libft/ft_striteri.o src/libft/ft_strjoin.o src/libft/ft_strlcat.o src/libft/ft_strlcpy.o src/libft/ft_strlen.o src/libft/ft_strmapi.o src/libft/ft_strncmp.o src/libft/ft_strnstr.o src/libft/ft_strrchr.o src/libft/ft_strtrim.o src/libft/ft_substr.o src/libft/ft_tolower.o src/libft/ft_toupper.o
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/229=1%
+#  recipe to execute (from 'Makefile', line 43):
+	ar rcs $(LFTNAME) $(LFTOBJ)
+
+# Not a target:
+.ch:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.r.f:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(PREPROCESS.r) $(OUTPUT_OPTION) $<
+
+# Not a target:
+.dvi:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.def.sym:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(COMPILE.def) -o $@ $<
+
+libftprintf.test: libftprintf.a test/writers/ft_ltoh.o test/writers/ft_ultoa.o test/parcer/newzone.o test/wraps/free.cpp test/wraps/malloc.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 49):
+	$(CXX) $(CXXFLAGS) $(WRAPS) $(TOBJS) $(WRAPS_FILES) $(NAME) $(GTEST_LIBS) -o $(TEST)
+
+# Not a target:
+src/libft/ft_isdigit.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294522175
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/libft/ft_lstmap.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294522175
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+test/writers/ft_ltoh.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.m.o:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(COMPILE.m) $(OUTPUT_OPTION) $<
+
+# Not a target:
+src/libft/ft_substr.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.295726609
+#  File has been updated.
+#  Successfully updated.
+
+src/libft/ft_isprint.o: src/libft/ft_isprint.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_isprint'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_isprint.o
+# automatic
+# * := src/libft/ft_isprint
+# automatic
+# < := src/libft/ft_isprint.c
+# automatic
+# + := src/libft/ft_isprint.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_isprint.c
+# automatic
+# ? := src/libft/ft_isprint.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+.lm.m:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	@$(RM) $@ 
+	 $(LEX.m) $< > $@
+
+# Not a target:
+src/libft/ft_isprint.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294522175
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.p.o:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(COMPILE.p) $(OUTPUT_OPTION) $<
+
+# Not a target:
+src/libft/ft_lstadd_front.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294522175
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.texinfo:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.ln:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/libft/ft_itoa.o: src/libft/ft_itoa.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_itoa'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_itoa.o
+# automatic
+# * := src/libft/ft_itoa
+# automatic
+# < := src/libft/ft_itoa.c
+# automatic
+# + := src/libft/ft_itoa.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_itoa.c
+# automatic
+# ? := src/libft/ft_itoa.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+.C:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(LINK.C) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Not a target:
+.web:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/libft/ft_lstiter.o: src/libft/ft_lstiter.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_lstiter'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_lstiter.o
+# automatic
+# * := src/libft/ft_lstiter
+# automatic
+# < := src/libft/ft_lstiter.c
+# automatic
+# + := src/libft/ft_lstiter.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_lstiter.c
+# automatic
+# ? := src/libft/ft_lstiter.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+src/libft/ft_putendl_fd.o: src/libft/ft_putendl_fd.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_putendl_fd'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_putendl_fd.o
+# automatic
+# * := src/libft/ft_putendl_fd
+# automatic
+# < := src/libft/ft_putendl_fd.c
+# automatic
+# + := src/libft/ft_putendl_fd.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_putendl_fd.c
+# automatic
+# ? := src/libft/ft_putendl_fd.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+src/libft/ft_bzero.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294522175
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/libft/ft_isalpha.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294522175
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/libft/ft_itoa.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294522175
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/libft/ft_lstnew.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294522175
+#  File has been updated.
+#  Successfully updated.
+
+src/libft/ft_strlcat.o: src/libft/ft_strlcat.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_strlcat'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_strlcat.o
+# automatic
+# * := src/libft/ft_strlcat
+# automatic
+# < := src/libft/ft_strlcat.c
+# automatic
+# + := src/libft/ft_strlcat.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_strlcat.c
+# automatic
+# ? := src/libft/ft_strlcat.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+.elc:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/libft/ft_lstclear.o: src/libft/ft_lstclear.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_lstclear'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_lstclear.o
+# automatic
+# * := src/libft/ft_lstclear
+# automatic
+# < := src/libft/ft_lstclear.c
+# automatic
+# + := src/libft/ft_lstclear.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_lstclear.c
+# automatic
+# ? := src/libft/ft_lstclear.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+test/wraps/malloc.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.y.ln:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(YACC.y) $< 
+	 $(LINT.c) -C$* y.tab.c 
+	 $(RM) y.tab.c
+
+# Not a target:
+.l.c:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	@$(RM) $@ 
+	 $(LEX.l) $< > $@
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-09 11:23:00.385962579
+#  File has been updated.
+#  Successfully updated.
+
+src/libft/ft_isascii.o: src/libft/ft_isascii.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_isascii'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_isascii.o
+# automatic
+# * := src/libft/ft_isascii
+# automatic
+# < := src/libft/ft_isascii.c
+# automatic
+# + := src/libft/ft_isascii.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_isascii.c
+# automatic
+# ? := src/libft/ft_isascii.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+.sym:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.r.o:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(COMPILE.r) $(OUTPUT_OPTION) $<
+
+# Not a target:
+.mod:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(COMPILE.mod) -o $@ -e $@ $^
+
+# Not a target:
+.def:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/libft/ft_strjoin.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294726544
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/libft/ft_lstiter.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294522175
+#  File has been updated.
+#  Successfully updated.
+
+src/libft/ft_memset.o: src/libft/ft_memset.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_memset'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_memset.o
+# automatic
+# * := src/libft/ft_memset
+# automatic
+# < := src/libft/ft_memset.c
+# automatic
+# + := src/libft/ft_memset.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_memset.c
+# automatic
+# ? := src/libft/ft_memset.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+src/libft/ft_strjoin.o: src/libft/ft_strjoin.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_strjoin'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_strjoin.o
+# automatic
+# * := src/libft/ft_strjoin
+# automatic
+# < := src/libft/ft_strjoin.c
+# automatic
+# + := src/libft/ft_strjoin.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_strjoin.c
+# automatic
+# ? := src/libft/ft_strjoin.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+src/libft/ft_tolower.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.295726609
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.S:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(LINK.S) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Not a target:
+.texi.dvi:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(TEXI2DVI) $(TEXI2DVI_FLAGS) $<
+
+src/libft/ft_bzero.o: src/libft/ft_bzero.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_bzero'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_bzero.o
+# automatic
+# * := src/libft/ft_bzero
+# automatic
+# < := src/libft/ft_bzero.c
+# automatic
+# + := src/libft/ft_bzero.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_bzero.c
+# automatic
+# ? := src/libft/ft_bzero.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+src/libft/ft_strdup.o: src/libft/ft_strdup.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_strdup'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_strdup.o
+# automatic
+# * := src/libft/ft_strdup
+# automatic
+# < := src/libft/ft_strdup.c
+# automatic
+# + := src/libft/ft_strdup.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_strdup.c
+# automatic
+# ? := src/libft/ft_strdup.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+src/libft/ft_atoi.o: src/libft/ft_atoi.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_atoi'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_atoi.o
+# automatic
+# * := src/libft/ft_atoi
+# automatic
+# < := src/libft/ft_atoi.c
+# automatic
+# + := src/libft/ft_atoi.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_atoi.c
+# automatic
+# ? := src/libft/ft_atoi.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+src/writers/ft_ltoh.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-09 11:20:29.57533966
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.txinfo.dvi:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(TEXI2DVI) $(TEXI2DVI_FLAGS) $<
+
+src/libft/ft_isalnum.o: src/libft/ft_isalnum.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_isalnum'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_isalnum.o
+# automatic
+# * := src/libft/ft_isalnum
+# automatic
+# < := src/libft/ft_isalnum.c
+# automatic
+# + := src/libft/ft_isalnum.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_isalnum.c
+# automatic
+# ? := src/libft/ft_isalnum.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+src/libft/ft_strchr.o: src/libft/ft_strchr.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_strchr'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_strchr.o
+# automatic
+# * := src/libft/ft_strchr
+# automatic
+# < := src/libft/ft_strchr.c
+# automatic
+# + := src/libft/ft_strchr.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_strchr.c
+# automatic
+# ? := src/libft/ft_strchr.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 52):
+	rm -rf $(OBJ)
+	rm -rf $(LFTOBJ)
+	rm -rf $(TOBJS)
+
+# Not a target:
+.y.c:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(YACC.y) $< 
+	 mv -f y.tab.c $@
+
+# Not a target:
+src/libft/ft_lstsize.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294522175
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.cpp.o:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(COMPILE.cpp) $(OUTPUT_OPTION) $<
+
+# Not a target:
+src/libft/ft_calloc.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294522175
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/libft/ft_memchr.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294522175
+#  File has been updated.
+#  Successfully updated.
+
+src/libft/ft_lstnew.o: src/libft/ft_lstnew.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_lstnew'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_lstnew.o
+# automatic
+# * := src/libft/ft_lstnew
+# automatic
+# < := src/libft/ft_lstnew.c
+# automatic
+# + := src/libft/ft_lstnew.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_lstnew.c
+# automatic
+# ? := src/libft/ft_lstnew.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+src/parcer/newzone.o: src/parcer/newzone.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/parcer/newzone'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/parcer/newzone.o
+# automatic
+# * := src/parcer/newzone
+# automatic
+# < := src/parcer/newzone.c
+# automatic
+# + := src/parcer/newzone.c
+# automatic
+# % := 
+# automatic
+# ^ := src/parcer/newzone.c
+# automatic
+# ? := src/parcer/newzone.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+.el:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.cc:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(LINK.cc) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+src/libft/ft_calloc.o: src/libft/ft_calloc.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_calloc'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_calloc.o
+# automatic
+# * := src/libft/ft_calloc
+# automatic
+# < := src/libft/ft_calloc.c
+# automatic
+# + := src/libft/ft_calloc.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_calloc.c
+# automatic
+# ? := src/libft/ft_calloc.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+src/libft/ft_isalnum.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294522175
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/writers/ft_ultoa.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-09 11:20:29.575741634
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.tex:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/libft/ft_strmapi.o: src/libft/ft_strmapi.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_strmapi'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_strmapi.o
+# automatic
+# * := src/libft/ft_strmapi
+# automatic
+# < := src/libft/ft_strmapi.c
+# automatic
+# + := src/libft/ft_strmapi.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_strmapi.c
+# automatic
+# ? := src/libft/ft_strmapi.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+.m:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(LINK.m) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Not a target:
+.F:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(LINK.F) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Not a target:
+.web.tex:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(WEAVE) $<
+
+src/libft/ft_putstr_fd.o: src/libft/ft_putstr_fd.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_putstr_fd'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_putstr_fd.o
+# automatic
+# * := src/libft/ft_putstr_fd
+# automatic
+# < := src/libft/ft_putstr_fd.c
+# automatic
+# + := src/libft/ft_putstr_fd.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_putstr_fd.c
+# automatic
+# ? := src/libft/ft_putstr_fd.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+.texinfo.info:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(MAKEINFO) $(MAKEINFO_FLAGS) $< -o $@
+
+re: fclean all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.ym.m:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(YACC.m) $< 
+	 mv -f y.tab.c $@
+
+# Not a target:
+src/libft/ft_atoi.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294363363
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/libft/ft_strtrim.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.295726609
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/libft/ft_putchar_fd.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294726544
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/libft/ft_lstclear.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294522175
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/libft/ft_putendl_fd.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294726544
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/libft/ft_strmapi.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294726544
+#  File has been updated.
+#  Successfully updated.
+
+src/libft/ft_lstadd_front.o: src/libft/ft_lstadd_front.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_lstadd_front'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_lstadd_front.o
+# automatic
+# * := src/libft/ft_lstadd_front
+# automatic
+# < := src/libft/ft_lstadd_front.c
+# automatic
+# + := src/libft/ft_lstadd_front.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_lstadd_front.c
+# automatic
+# ? := src/libft/ft_lstadd_front.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+src/libft/ft_strlcat.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294726544
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/libft/ft_split.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294726544
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.l:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/libft/ft_split.o: src/libft/ft_split.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_split'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_split.o
+# automatic
+# * := src/libft/ft_split
+# automatic
+# < := src/libft/ft_split.c
+# automatic
+# + := src/libft/ft_split.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_split.c
+# automatic
+# ? := src/libft/ft_split.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+src/parcer/newzone.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-09 11:20:29.57533966
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.f:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(LINK.f) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Not a target:
+.texi:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+libftprintf.a: libft.a src/writers/ft_ltoh.o src/writers/ft_ultoa.o src/parcer/newzone.o
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'libftprintf'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := libftprintf.a
+# automatic
+# * := libftprintf
+# automatic
+# < := libft.a
+# automatic
+# + := libft.a src/writers/ft_ltoh.o src/writers/ft_ultoa.o src/parcer/newzone.o
+# automatic
+# % := 
+# automatic
+# ^ := libft.a src/writers/ft_ltoh.o src/writers/ft_ultoa.o src/parcer/newzone.o
+# automatic
+# ? := libft.a src/writers/ft_ltoh.o src/writers/ft_ultoa.o src/parcer/newzone.o
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/252=1%
+#  recipe to execute (from 'Makefile', line 46):
+	ar rcs $(NAME) $(LFTOBJ) $(OBJ)
+
+src/libft/ft_lstsize.o: src/libft/ft_lstsize.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_lstsize'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_lstsize.o
+# automatic
+# * := src/libft/ft_lstsize
+# automatic
+# < := src/libft/ft_lstsize.c
+# automatic
+# + := src/libft/ft_lstsize.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_lstsize.c
+# automatic
+# ? := src/libft/ft_lstsize.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+src/libft/ft_memcmp.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294522175
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+test/parcer/newzone.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/libft/ft_lstadd_back.o: src/libft/ft_lstadd_back.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_lstadd_back'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_lstadd_back.o
+# automatic
+# * := src/libft/ft_lstadd_back
+# automatic
+# < := src/libft/ft_lstadd_back.c
+# automatic
+# + := src/libft/ft_lstadd_back.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_lstadd_back.c
+# automatic
+# ? := src/libft/ft_lstadd_back.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+src/libft/ft_memmove.o: src/libft/ft_memmove.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_memmove'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_memmove.o
+# automatic
+# * := src/libft/ft_memmove
+# automatic
+# < := src/libft/ft_memmove.c
+# automatic
+# + := src/libft/ft_memmove.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_memmove.c
+# automatic
+# ? := src/libft/ft_memmove.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+.r:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(LINK.r) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Not a target:
+.a:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: libftprintf.a
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/244=0%
+
+fclean: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 57):
+	rm -rf $(NAME)
+	rm -rf $(LFTNAME)
+	rm -rf $(TEST)
+
+# Not a target:
+.w.tex:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(CWEAVE) $< - $@
+
+src/libft/ft_substr.o: src/libft/ft_substr.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_substr'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_substr.o
+# automatic
+# * := src/libft/ft_substr
+# automatic
+# < := src/libft/ft_substr.c
+# automatic
+# + := src/libft/ft_substr.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_substr.c
+# automatic
+# ? := src/libft/ft_substr.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+.s.o:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(COMPILE.s) -o $@ $<
+
+# Not a target:
+.txinfo:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.c.ln:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(LINT.c) -C$* $<
+
+# Not a target:
+.tex.dvi:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(TEX) $<
+
+# Not a target:
+.info:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.out:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.texinfo.dvi:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(TEXI2DVI) $(TEXI2DVI_FLAGS) $<
+
+src/libft/ft_striteri.o: src/libft/ft_striteri.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_striteri'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_striteri.o
+# automatic
+# * := src/libft/ft_striteri
+# automatic
+# < := src/libft/ft_striteri.c
+# automatic
+# + := src/libft/ft_striteri.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_striteri.c
+# automatic
+# ? := src/libft/ft_striteri.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+.F.o:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(COMPILE.F) $(OUTPUT_OPTION) $<
+
+src/libft/ft_lstlast.o: src/libft/ft_lstlast.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_lstlast'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_lstlast.o
+# automatic
+# * := src/libft/ft_lstlast
+# automatic
+# < := src/libft/ft_lstlast.c
+# automatic
+# + := src/libft/ft_lstlast.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_lstlast.c
+# automatic
+# ? := src/libft/ft_lstlast.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+src/libft/ft_memset.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294726544
+#  File has been updated.
+#  Successfully updated.
+
+src/libft/ft_strncmp.o: src/libft/ft_strncmp.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_strncmp'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_strncmp.o
+# automatic
+# * := src/libft/ft_strncmp
+# automatic
+# < := src/libft/ft_strncmp.c
+# automatic
+# + := src/libft/ft_strncmp.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_strncmp.c
+# automatic
+# ? := src/libft/ft_strncmp.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+test:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.yl:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/libft/ft_strlcpy.o: src/libft/ft_strlcpy.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_strlcpy'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_strlcpy.o
+# automatic
+# * := src/libft/ft_strlcpy
+# automatic
+# < := src/libft/ft_strlcpy.c
+# automatic
+# + := src/libft/ft_strlcpy.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_strlcpy.c
+# automatic
+# ? := src/libft/ft_strlcpy.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+.s:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(LINK.s) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Not a target:
+test/writers/ft_ultoa.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/libft/ft_strtrim.o: src/libft/ft_strtrim.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_strtrim'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_strtrim.o
+# automatic
+# * := src/libft/ft_strtrim
+# automatic
+# < := src/libft/ft_strtrim.c
+# automatic
+# + := src/libft/ft_strtrim.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_strtrim.c
+# automatic
+# ? := src/libft/ft_strtrim.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+src/libft/ft_lstdelone.o: src/libft/ft_lstdelone.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_lstdelone'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_lstdelone.o
+# automatic
+# * := src/libft/ft_lstdelone
+# automatic
+# < := src/libft/ft_lstdelone.c
+# automatic
+# + := src/libft/ft_lstdelone.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_lstdelone.c
+# automatic
+# ? := src/libft/ft_lstdelone.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+src/libft/ft_memcpy.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294726544
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.S.o:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(COMPILE.S) -o $@ $<
+
+# Not a target:
+src/libft/ft_lstlast.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294522175
+#  File has been updated.
+#  Successfully updated.
+
+src/libft/ft_isalpha.o: src/libft/ft_isalpha.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_isalpha'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_isalpha.o
+# automatic
+# * := src/libft/ft_isalpha
+# automatic
+# < := src/libft/ft_isalpha.c
+# automatic
+# + := src/libft/ft_isalpha.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_isalpha.c
+# automatic
+# ? := src/libft/ft_isalpha.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+src/libft/ft_strlen.o: src/libft/ft_strlen.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_strlen'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_strlen.o
+# automatic
+# * := src/libft/ft_strlen
+# automatic
+# < := src/libft/ft_strlen.c
+# automatic
+# + := src/libft/ft_strlen.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_strlen.c
+# automatic
+# ? := src/libft/ft_strlen.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+.o:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(LINK.o) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+src/libft/ft_strrchr.o: src/libft/ft_strrchr.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_strrchr'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_strrchr.o
+# automatic
+# * := src/libft/ft_strrchr
+# automatic
+# < := src/libft/ft_strrchr.c
+# automatic
+# + := src/libft/ft_strrchr.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_strrchr.c
+# automatic
+# ? := src/libft/ft_strrchr.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+src/libft/ft_isdigit.o: src/libft/ft_isdigit.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_isdigit'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_isdigit.o
+# automatic
+# * := src/libft/ft_isdigit
+# automatic
+# < := src/libft/ft_isdigit.c
+# automatic
+# + := src/libft/ft_isdigit.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_isdigit.c
+# automatic
+# ? := src/libft/ft_isdigit.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+src/libft/ft_strncmp.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294726544
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.C.o:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(COMPILE.C) $(OUTPUT_OPTION) $<
+
+# Not a target:
+.c:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(LINK.c) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Not a target:
+.txinfo.info:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(MAKEINFO) $(MAKEINFO_FLAGS) $< -o $@
+
+src/libft/ft_memchr.o: src/libft/ft_memchr.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_memchr'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_memchr.o
+# automatic
+# * := src/libft/ft_memchr
+# automatic
+# < := src/libft/ft_memchr.c
+# automatic
+# + := src/libft/ft_memchr.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_memchr.c
+# automatic
+# ? := src/libft/ft_memchr.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+src/libft/ft_putchar_fd.o: src/libft/ft_putchar_fd.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_putchar_fd'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_putchar_fd.o
+# automatic
+# * := src/libft/ft_putchar_fd
+# automatic
+# < := src/libft/ft_putchar_fd.c
+# automatic
+# + := src/libft/ft_putchar_fd.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_putchar_fd.c
+# automatic
+# ? := src/libft/ft_putchar_fd.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+.texi.info:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(MAKEINFO) $(MAKEINFO_FLAGS) $< -o $@
+
+# Not a target:
+.y:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/libft/ft_putnbr_fd.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294726544
+#  File has been updated.
+#  Successfully updated.
+
+src/writers/ft_ultoa.o: src/writers/ft_ultoa.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/writers/ft_ultoa'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/writers/ft_ultoa.o
+# automatic
+# * := src/writers/ft_ultoa
+# automatic
+# < := src/writers/ft_ultoa.c
+# automatic
+# + := src/writers/ft_ultoa.c
+# automatic
+# % := 
+# automatic
+# ^ := src/writers/ft_ultoa.c
+# automatic
+# ? := src/writers/ft_ultoa.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+src/libft/ft_memmove.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294726544
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/libft/ft_strdup.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294726544
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.l.r:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(LEX.l) $< > $@ 
+	 mv -f lex.yy.r $@
+
+src/libft/ft_toupper.o: src/libft/ft_toupper.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_toupper'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_toupper.o
+# automatic
+# * := src/libft/ft_toupper
+# automatic
+# < := src/libft/ft_toupper.c
+# automatic
+# + := src/libft/ft_toupper.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_toupper.c
+# automatic
+# ? := src/libft/ft_toupper.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+.p:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(LINK.p) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Not a target:
+src/libft/ft_strchr.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294726544
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/libft/ft_toupper.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.295726609
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/libft/ft_strlcpy.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294726544
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/libft/ft_strnstr.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294726544
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.l.ln:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	@$(RM) $*.c
+	 $(LEX.l) $< > $*.c
+	$(LINT.c) -i $*.c -o $@
+	 $(RM) $*.c
+
+# Not a target:
+.w:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES: .out .a .ln .o .c .cc .C .cpp .p .f .F .m .r .y .l .ym .yl .s .S .mod .sym .def .h .info .dvi .tex .texinfo .texi .txinfo .w .ch .web .sh .elc .el
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/libft/ft_memcpy.o: src/libft/ft_memcpy.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_memcpy'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_memcpy.o
+# automatic
+# * := src/libft/ft_memcpy
+# automatic
+# < := src/libft/ft_memcpy.c
+# automatic
+# + := src/libft/ft_memcpy.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_memcpy.c
+# automatic
+# ? := src/libft/ft_memcpy.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+src/libft/ft_isascii.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294522175
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: all clean fclean re test
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/libft/ft_memcmp.o: src/libft/ft_memcmp.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_memcmp'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_memcmp.o
+# automatic
+# * := src/libft/ft_memcmp
+# automatic
+# < := src/libft/ft_memcmp.c
+# automatic
+# + := src/libft/ft_memcmp.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_memcmp.c
+# automatic
+# ? := src/libft/ft_memcmp.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+.mod.o:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(COMPILE.mod) -o $@ $<
+
+# Not a target:
+.web.p:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(TANGLE) $<
+
+# Not a target:
+.S.s:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(PREPROCESS.S) $< > $@
+
+# Not a target:
+src/libft/ft_lstdelone.c:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2026-11-07 20:38:28.294522175
+#  File has been updated.
+#  Successfully updated.
+
+src/writers/ft_ltoh.o: src/writers/ft_ltoh.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/writers/ft_ltoh'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/writers/ft_ltoh.o
+# automatic
+# * := src/writers/ft_ltoh
+# automatic
+# < := src/writers/ft_ltoh.c
+# automatic
+# + := src/writers/ft_ltoh.c
+# automatic
+# % := 
+# automatic
+# ^ := src/writers/ft_ltoh.c
+# automatic
+# ? := src/writers/ft_ltoh.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+.f.o:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(COMPILE.f) $(OUTPUT_OPTION) $<
+
+# Not a target:
+.ym:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.cc.o:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(COMPILE.cc) $(OUTPUT_OPTION) $<
+
+# Not a target:
+.F.f:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(PREPROCESS.F) $(OUTPUT_OPTION) $<
+
+# Not a target:
+.w.c:
+#  Builtin rule
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (built-in):
+	$(CTANGLE) $< - $@
+
+src/libft/ft_strnstr.o: src/libft/ft_strnstr.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/libft/ft_strnstr'
+#  Last modified 2514-05-30 03:53:03.107374182
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := src/libft/ft_strnstr.o
+# automatic
+# * := src/libft/ft_strnstr
+# automatic
+# < := src/libft/ft_strnstr.c
+# automatic
+# + := src/libft/ft_strnstr.c
+# automatic
+# % := 
+# automatic
+# ^ := src/libft/ft_strnstr.c
+# automatic
+# ? := src/libft/ft_strnstr.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# files hash-table stats:
+# Load=179/1024=17%, Rehash=0, Collisions=482/3029=16%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 5 (3) / strings = 1655 / storage = 36523 B / avg = 22 B
+# current buf: size = 8162 B / used = 3919 B / count = 169 / avg = 23 B
+# other used: total = 32604 B / count = 1486 / avg = 21 B
+# other free: total = 44 B / max = 24 B / min = 3 B / avg = 11 B
+
+# strcache performance: lookups = 2149 / hit rate = 22%
+# hash-table stats:
+# Load=1655/8192=20%, Rehash=0, Collisions=307/2149=14%
+# Finished Make data base on Mon Nov  9 11:24:04 2026
+

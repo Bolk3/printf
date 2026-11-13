@@ -6,7 +6,7 @@
 /*   By: resonnet <renald.sonnet@learner.42.tech>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/07 21:00:18 by resonnet          #+#    #+#             */
-/*   Updated: 2026/11/08 12:00:14 by resonnet         ###   ########.fr       */
+/*   Updated: 2026/11/09 13:36:38 by resonnet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,19 +18,23 @@
 # define UPP_HEX "0123456789ABCDEF"
 # define LOW_HEX "0123456789abcdef"
 
+enum e_type {
+	STR,
+	CHR,
+	INT,
+	UINT,
+	PTR,
+	LOW_X,
+	UPP_X,
+	ERROR
+};
+
 typedef struct s_print 
 {
-	struct s_print	*next;
-	char			*data;
-	int				size;
+	e_type	type;
+	char	*data;
+	int		size;
 } t_print;
-
-t_print			*newzone(char *data);
-t_print			*last(t_print *head);
-void			delone(t_print *node);
-void			clear(t_print *head);
-unsigned int	lstsize(t_print *head);
-t_print			*parse(const char *format);
 
 void			ft_putupphex_fd(int fd, unsigned long value);
 void			ft_putlowhex_fd(int fd, unsigned long value);

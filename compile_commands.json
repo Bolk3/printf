@@ -1,0 +1,784 @@
+[
+  {
+    "file": "src/libft/ft_atoi.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_atoi.c",
+      "-o",
+      "src/libft/ft_atoi.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_atoi.o"
+  },
+  {
+    "file": "src/libft/ft_bzero.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_bzero.c",
+      "-o",
+      "src/libft/ft_bzero.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_bzero.o"
+  },
+  {
+    "file": "src/libft/ft_calloc.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_calloc.c",
+      "-o",
+      "src/libft/ft_calloc.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_calloc.o"
+  },
+  {
+    "file": "src/libft/ft_isalnum.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_isalnum.c",
+      "-o",
+      "src/libft/ft_isalnum.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_isalnum.o"
+  },
+  {
+    "file": "src/libft/ft_isalpha.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_isalpha.c",
+      "-o",
+      "src/libft/ft_isalpha.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_isalpha.o"
+  },
+  {
+    "file": "src/libft/ft_isascii.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_isascii.c",
+      "-o",
+      "src/libft/ft_isascii.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_isascii.o"
+  },
+  {
+    "file": "src/libft/ft_isdigit.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_isdigit.c",
+      "-o",
+      "src/libft/ft_isdigit.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_isdigit.o"
+  },
+  {
+    "file": "src/libft/ft_isprint.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_isprint.c",
+      "-o",
+      "src/libft/ft_isprint.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_isprint.o"
+  },
+  {
+    "file": "src/libft/ft_itoa.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_itoa.c",
+      "-o",
+      "src/libft/ft_itoa.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_itoa.o"
+  },
+  {
+    "file": "src/libft/ft_lstadd_back.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_lstadd_back.c",
+      "-o",
+      "src/libft/ft_lstadd_back.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_lstadd_back.o"
+  },
+  {
+    "file": "src/libft/ft_lstadd_front.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_lstadd_front.c",
+      "-o",
+      "src/libft/ft_lstadd_front.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_lstadd_front.o"
+  },
+  {
+    "file": "src/libft/ft_lstclear.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_lstclear.c",
+      "-o",
+      "src/libft/ft_lstclear.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_lstclear.o"
+  },
+  {
+    "file": "src/libft/ft_lstdelone.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_lstdelone.c",
+      "-o",
+      "src/libft/ft_lstdelone.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_lstdelone.o"
+  },
+  {
+    "file": "src/libft/ft_lstiter.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_lstiter.c",
+      "-o",
+      "src/libft/ft_lstiter.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_lstiter.o"
+  },
+  {
+    "file": "src/libft/ft_lstlast.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_lstlast.c",
+      "-o",
+      "src/libft/ft_lstlast.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_lstlast.o"
+  },
+  {
+    "file": "src/libft/ft_lstmap.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_lstmap.c",
+      "-o",
+      "src/libft/ft_lstmap.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_lstmap.o"
+  },
+  {
+    "file": "src/libft/ft_lstnew.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_lstnew.c",
+      "-o",
+      "src/libft/ft_lstnew.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_lstnew.o"
+  },
+  {
+    "file": "src/libft/ft_lstsize.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_lstsize.c",
+      "-o",
+      "src/libft/ft_lstsize.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_lstsize.o"
+  },
+  {
+    "file": "src/libft/ft_memchr.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_memchr.c",
+      "-o",
+      "src/libft/ft_memchr.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_memchr.o"
+  },
+  {
+    "file": "src/libft/ft_memcmp.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_memcmp.c",
+      "-o",
+      "src/libft/ft_memcmp.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_memcmp.o"
+  },
+  {
+    "file": "src/libft/ft_memcpy.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_memcpy.c",
+      "-o",
+      "src/libft/ft_memcpy.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_memcpy.o"
+  },
+  {
+    "file": "src/libft/ft_memmove.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_memmove.c",
+      "-o",
+      "src/libft/ft_memmove.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_memmove.o"
+  },
+  {
+    "file": "src/libft/ft_memset.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_memset.c",
+      "-o",
+      "src/libft/ft_memset.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_memset.o"
+  },
+  {
+    "file": "src/libft/ft_putchar_fd.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_putchar_fd.c",
+      "-o",
+      "src/libft/ft_putchar_fd.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_putchar_fd.o"
+  },
+  {
+    "file": "src/libft/ft_putendl_fd.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_putendl_fd.c",
+      "-o",
+      "src/libft/ft_putendl_fd.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_putendl_fd.o"
+  },
+  {
+    "file": "src/libft/ft_putnbr_fd.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_putnbr_fd.c",
+      "-o",
+      "src/libft/ft_putnbr_fd.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_putnbr_fd.o"
+  },
+  {
+    "file": "src/libft/ft_putstr_fd.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_putstr_fd.c",
+      "-o",
+      "src/libft/ft_putstr_fd.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_putstr_fd.o"
+  },
+  {
+    "file": "src/libft/ft_split.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_split.c",
+      "-o",
+      "src/libft/ft_split.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_split.o"
+  },
+  {
+    "file": "src/libft/ft_strchr.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_strchr.c",
+      "-o",
+      "src/libft/ft_strchr.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_strchr.o"
+  },
+  {
+    "file": "src/libft/ft_strdup.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_strdup.c",
+      "-o",
+      "src/libft/ft_strdup.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_strdup.o"
+  },
+  {
+    "file": "src/libft/ft_striteri.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_striteri.c",
+      "-o",
+      "src/libft/ft_striteri.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_striteri.o"
+  },
+  {
+    "file": "src/libft/ft_strjoin.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_strjoin.c",
+      "-o",
+      "src/libft/ft_strjoin.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_strjoin.o"
+  },
+  {
+    "file": "src/libft/ft_strlcat.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_strlcat.c",
+      "-o",
+      "src/libft/ft_strlcat.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_strlcat.o"
+  },
+  {
+    "file": "src/libft/ft_strlcpy.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_strlcpy.c",
+      "-o",
+      "src/libft/ft_strlcpy.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_strlcpy.o"
+  },
+  {
+    "file": "src/libft/ft_strlen.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_strlen.c",
+      "-o",
+      "src/libft/ft_strlen.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_strlen.o"
+  },
+  {
+    "file": "src/libft/ft_strmapi.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_strmapi.c",
+      "-o",
+      "src/libft/ft_strmapi.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_strmapi.o"
+  },
+  {
+    "file": "src/libft/ft_strncmp.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_strncmp.c",
+      "-o",
+      "src/libft/ft_strncmp.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_strncmp.o"
+  },
+  {
+    "file": "src/libft/ft_strnstr.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_strnstr.c",
+      "-o",
+      "src/libft/ft_strnstr.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_strnstr.o"
+  },
+  {
+    "file": "src/libft/ft_strrchr.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_strrchr.c",
+      "-o",
+      "src/libft/ft_strrchr.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_strrchr.o"
+  },
+  {
+    "file": "src/libft/ft_strtrim.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_strtrim.c",
+      "-o",
+      "src/libft/ft_strtrim.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_strtrim.o"
+  },
+  {
+    "file": "src/libft/ft_substr.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_substr.c",
+      "-o",
+      "src/libft/ft_substr.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_substr.o"
+  },
+  {
+    "file": "src/libft/ft_tolower.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_tolower.c",
+      "-o",
+      "src/libft/ft_tolower.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_tolower.o"
+  },
+  {
+    "file": "src/libft/ft_toupper.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/libft/ft_toupper.c",
+      "-o",
+      "src/libft/ft_toupper.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/libft/ft_toupper.o"
+  },
+  {
+    "file": "src/writers/ft_ltoh.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/writers/ft_ltoh.c",
+      "-o",
+      "src/writers/ft_ltoh.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/writers/ft_ltoh.o"
+  },
+  {
+    "file": "src/writers/ft_ultoa.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/writers/ft_ultoa.c",
+      "-o",
+      "src/writers/ft_ultoa.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/writers/ft_ultoa.o"
+  },
+  {
+    "file": "src/parcer/newzone.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "./include/",
+      "-c",
+      "src/parcer/newzone.c",
+      "-o",
+      "src/parcer/newzone.o"
+    ],
+    "directory": "/home/bolk3/Documents/printf",
+    "output": "src/parcer/newzone.o"
+  }
+]
