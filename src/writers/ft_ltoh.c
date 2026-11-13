@@ -6,12 +6,13 @@
 /*   By: resonnet <renald.sonnet@learner.42.tech>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/07 21:46:47 by resonnet          #+#    #+#             */
-/*   Updated: 2026/11/08 10:42:56 by resonnet         ###   ########.fr       */
+/*   Updated: 2026/11/10 11:16:04 by resonnet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <limits.h>
 #include <printf.h>
+#include <libft.h>
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -46,5 +47,5 @@ char	*ft_ltoh(unsigned long value, const char *charset)
 		value /= 16;
 		size--;
 	}
-	return (res);
+	return (ft_strjoin("0x", res));
 }

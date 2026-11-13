@@ -6,15 +6,89 @@
 /*   By: resonnet <renald.sonnet@learner.42.tech>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/09 11:28:48 by resonnet          #+#    #+#             */
-/*   Updated: 2026/11/09 13:48:15 by resonnet         ###   ########.fr       */
+/*   Updated: 2026/11/13 17:08:22 by resonnet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <__stdarg_va_list.h>
+#include <stdarg.h>
 #include <libft.h>
 #include <printf.h>
+#include <stdarg.h>
 #include <stddef.h>
+#include <stdio.h>
 #include <stdlib.h>
+#include <sys/types.h>
+
+void	free_node(void *node)
+{
+	t_print	*t_node;
+
+	t_node = (t_print *)node;
+	free(t_node -> data);
+	free(t_node);
+}
+
+t_list	*cleanup(t_list **lst)
+{
+	ft_lstclear(lst, free_node);
+	return (NULL);
+}
+
+char	*handle_ptr(void *arg)
+{
+	char	*result;
+
+	if (!arg)
+		result = ft_strdup("(nil)");
+	else
+		result = ft_strjoin("0x", ft_ltoh((unsigned long)arg, LOW_HEX));
+	return (result);
+}
+
+enum e_type	set_arg(const char *str)
+{
+	if (*(char *)str + 1 == 'd' || *(char *)str + 1 == 'i')
+		return (INT);
+	if (*(char *)str + 1 == 'u')
+		return (UINT);
+	if (*(char *)str + 1 == '%')
+		return (PERCENT);
+	if (*(char *)str + 1 == 'p')
+		return (PTR);
+	if (*(char *)str + 1 == 'c')
+		return (CHR);
+	if (*(char *)str + 1 == 's')
+		return (STR);
+	if (*(char *)str + 1 == 'x')
+		return (LOW_X);
+	if (*(char *)str + 1 == 'X')
+		return (UPP_X);
+	return (ERROR);
+}
+
+enum e_type	get_arg(const char *str, char **data, va_list args)
+{
+	enum e_type	result;
+
+	result = set_arg(str);
+	if (result == ERROR)
+		*data = NULL;
+	else if (result == PERCENT)
+		*data = ft_strdup("%");
+	else if (result == LOW_X)
+		*data = ft_strjoin("0x", ft_ltoh(va_arg(args, uint), LOW_HEX));
+	else if (result == UPP_X)
+		*data = ft_strjoin("0x", ft_ltoh(va_arg(args, uint), UPP_HEX));
+	else if (result == PTR)
+		*data = handle_ptr(va_arg(args, void *));
+	else if (result == UINT)
+		*data = ft_ultoa(va_arg(args, unsigned int));
+	else if (result == INT)
+		*data = ft_itoa(va_arg(args, int));
+	else if (result == STR || result == CHR)
+		*data = ft_strdup(va_arg(args, char *));
+	return (result);
+}
 
 t_print	*create_arg_node(const char *str, va_list args)
 {
@@ -24,7 +98,7 @@ t_print	*create_arg_node(const char *str, va_list args)
 	result = malloc(sizeof(t_print));
 	if (!result)
 		return (NULL);
-	result -> type = get_arg(&data, args);
+	result -> type = get_arg(str, &data, args);
 	result -> data = data;
 	if (!result -> data)
 	{
@@ -79,4 +153,29 @@ t_list	*parcer(const char *str, va_list args)
 		i = j;
 	}
 	return (result);
+}
+
+t_list	*a(const char *format, ...)
+{
+	va_list	args;
+	t_list	*lst;
+
+	va_start(args, format);
+	lst = parcer(format, args);
+	va_end(args);
+
+	return (lst);
+}
+
+int	main(void)
+{
+	t_list	*test= a("belle bite; %s", "shinji");
+	t_print	*current_node;
+
+	while (test)
+	{
+		current_node = test -> content;
+		printf("%s\n", current_node -> data);
+		test = test -> next;
+	}
 }

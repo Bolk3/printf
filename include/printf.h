@@ -6,7 +6,7 @@
 /*   By: resonnet <renald.sonnet@learner.42.tech>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/07 21:00:18 by resonnet          #+#    #+#             */
-/*   Updated: 2026/11/09 13:36:38 by resonnet         ###   ########.fr       */
+/*   Updated: 2026/11/13 13:35:26 by resonnet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,14 +26,15 @@ enum e_type {
 	PTR,
 	LOW_X,
 	UPP_X,
-	ERROR
+	ERROR,
+	PERCENT
 };
 
 typedef struct s_print 
 {
-	e_type	type;
-	char	*data;
-	int		size;
+	enum e_type	type;
+	char		*data;
+	int			size;
 } t_print;
 
 void			ft_putupphex_fd(int fd, unsigned long value);
